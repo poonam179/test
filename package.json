@@ -1,6 +1,6 @@
 {
   "name": "test-main",
-  "version": "1.2.3-beta.1",
+  "version": "1.2.3-beta.2",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
