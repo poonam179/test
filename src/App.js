@@ -1,22 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import version from '../package.json'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          welcome my world
+          welcome to Triveni
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>UI version :- {version.version}</p>
       </header>
     </div>
   );
